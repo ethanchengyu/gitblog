@@ -40,11 +40,11 @@ jobs:
           python main.py ${{ secrets.ethanchengyu }} ${{ github.repository }} --issue_number '${{ github.event.issue.number }}'
 
       - name: Push README
-      uses: github-actions-x/commit@v2.6
-      with:
-         github-token: ${{ secrets.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 }}
-         commit-message: "Refresh README"
-         files: README.md
-         rebase: 'true'
-         name: ethanchengyu 
-         email: ethanchengyu@gmail.com
+        uses: github-actions-x/commit@v2.6
+        with:
+          github-token: ${{ secrets.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 }}
+          commit-message: "Refresh README"
+          files: README.md
+          rebase: 'true'
+          name: ethanchengyu 
+          email: ethanchengyu@gmail.com
