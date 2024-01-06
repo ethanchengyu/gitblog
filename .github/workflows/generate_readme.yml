@@ -40,9 +40,11 @@ jobs:
           python main.py ${{ secrets.ETHANCHENGYU }} ${{ github.repository }} --issue_number '${{ github.event.issue.number }}'
 
       - name: Push README
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add BACKUP/*.md
-          git commit -a -m 'update new blog' || echo "nothing to commit"
-          git push || echo "nothing to push"
+      uses: github-actions-x/commit@v2.6
+      with:
+         github-token: ${{ secrets.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 }}
+         commit-message: "Refresh README"
+         files: README.md
+         rebase: 'true'
+         name: ETHANCHENGYU 
+         email: ethanchengyu@gmail.com
