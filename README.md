@@ -444,7 +444,7 @@ TODO list from [接下来要写的东西](https://github.com/yihong0618/gitblog/
 - [ ] 游戏行业科普
 
 TODO list from [学习生活上的计划](https://github.com/yihong0618/gitblog/issues/181)--3 jobs to do--1 jobs done
-- [x] 背标日初级下的单词
+- [ ] 背标日初级下的单词
 - [ ] 月跑量突破250 km
 - [ ] 瘦到130斤
 - [ ] 年底考个日语 3 级
